@@ -38,19 +38,11 @@
 
                 <androidx.appcompat.widget.AppCompatImageButton
                     android:id="@+id/imageView4"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:background="@drawable/coffeelogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_baseline_delete_forever_24"
                     tools:ignore="SpeakableTextPresentCheck" />
 
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    tools:text="+1"
-                    android:textColor="@color/primaryDarkColor"
-                    android:textStyle="bold" />
             </LinearLayout>
 
             <com.google.android.material.chip.Chip
@@ -59,13 +51,13 @@
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
                 android:checkable="false"
-                tools:text="Kumar Neelamegam"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toTopOf="@+id/textView5"
                 app:layout_constraintStart_toEndOf="@+id/imageView3"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_chainStyle="packed"
-                tools:ignore="TouchTargetSizeCheck" />
+                tools:ignore="TouchTargetSizeCheck"
+                tools:text="Kumar Neelamegam" />
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/textView6"
@@ -74,19 +66,19 @@
                 android:layout_marginStart="8dp"
                 android:backgroundTint="@color/cardTextColor"
                 android:checkable="false"
-                tools:text="GUTHABEN: 3.31€"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/textView5"
                 app:layout_constraintStart_toEndOf="@+id/imageView3"
                 app:layout_constraintTop_toBottomOf="@+id/textView5"
-                tools:ignore="TouchTargetSizeCheck" />
+                tools:ignore="TouchTargetSizeCheck"
+                tools:text="GUTHABEN: 3.31€" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -101,14 +93,14 @@
                 android:layout_marginStart="8dp"
                 android:backgroundTint="@color/cardTextColor2"
                 android:checkable="false"
-                tools:text="KONSUM: 601"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toTopOf="@+id/textView6"
                 app:layout_constraintEnd_toEndOf="@+id/textView7"
                 app:layout_constraintStart_toEndOf="@+id/imageView3"
                 app:layout_constraintTop_toBottomOf="@+id/textView7"
-                tools:ignore="TouchTargetSizeCheck" />
+                tools:ignore="TouchTargetSizeCheck"
+                tools:text="KONSUM: 601" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

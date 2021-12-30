@@ -4,10 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.434375" />
+        <entry key="app/src/main/res/layout/activity_accountinfo_adduser.xml" value="0.41822916666666665" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_rowitem.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.41822916666666665" />
+        <entry key="app/src/main/res/layout/activity_rowitem_balance.xml" value="0.41822916666666665" />
+        <entry key="app/src/main/res/layout/activity_rowitem_user.xml" value="0.41822916666666665" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.33469202898550726" />
+        <entry key="app/src/main/res/layout/activity_settings_accountinfo.xml" value="0.41822916666666665" />
+        <entry key="app/src/main/res/layout/activity_settings_addbalance.xml" value="0.41822916666666665" />
+        <entry key="app/src/main/res/layout/activity_settings_manageusers.xml" value="0.41822916666666665" />
+        <entry key="app/src/main/res/layout/activity_settings_reports.xml" value="0.41822916666666665" />
         <entry key="app/src/main/res/layout/activity_successdialog.xml" value="0.41822916666666665" />
       </map>
     </option>
