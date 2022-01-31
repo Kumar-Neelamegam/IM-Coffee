@@ -59,7 +59,9 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@drawable/ic_baseline_attach_file_24"
+        app:srcCompat="@drawable/ic_attach"
+        android:background="null"
+        android:padding="10dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -74,7 +76,9 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_camera_alt_24"
+        app:srcCompat="@drawable/ic_camera"
+        android:background="null"
+        android:padding="10dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText

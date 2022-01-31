@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/list_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -26,6 +27,7 @@
 
 
             <LinearLayout
+                android:id="@+id/btn_addtoaccount"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="4dp"
@@ -37,7 +39,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.appcompat.widget.AppCompatImageButton
-                    android:id="@+id/imageView4"
+                    android:id="@+id/btn_option"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:background="@drawable/coffeelogo"
@@ -54,21 +56,21 @@
             </LinearLayout>
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/textView7"
+                android:id="@+id/txtvw_userfirstname"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
                 android:checkable="false"
                 tools:text="Kumar Neelamegam"
                 android:textAlignment="center"
-                app:layout_constraintBottom_toTopOf="@+id/textView5"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintBottom_toTopOf="@+id/txtvw_totalconsumed"
+                app:layout_constraintStart_toEndOf="@+id/userphoto"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_chainStyle="packed"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/textView6"
+                android:id="@+id/txtvw_balanceaccount"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
@@ -77,13 +79,13 @@
                 tools:text="GUTHABEN: 3.31€"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/textView5"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
-                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintEnd_toEndOf="@+id/txtvw_totalconsumed"
+                app:layout_constraintStart_toEndOf="@+id/userphoto"
+                app:layout_constraintTop_toBottomOf="@+id/txtvw_totalconsumed"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/userphoto"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:layout_marginStart="8dp"
@@ -95,7 +97,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/textView5"
+                android:id="@+id/txtvw_totalconsumed"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
@@ -104,10 +106,10 @@
                 tools:text="KONSUM: 601"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                app:layout_constraintBottom_toTopOf="@+id/textView6"
-                app:layout_constraintEnd_toEndOf="@+id/textView7"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
-                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:layout_constraintBottom_toTopOf="@+id/txtvw_balanceaccount"
+                app:layout_constraintEnd_toEndOf="@+id/txtvw_userfirstname"
+                app:layout_constraintStart_toEndOf="@+id/userphoto"
+                app:layout_constraintTop_toBottomOf="@+id/txtvw_userfirstname"
                 tools:ignore="TouchTargetSizeCheck" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
